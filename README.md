@@ -1,11 +1,12 @@
-ANZMEST
--------
+ANZMEST for Defence Metadata Profile
+------------------------------------
 
-ANZMEST is GeoNetwork 2.10.x with Australian and New Zealand Metadata Profiles and support.
+ANZMEST is GeoNetwork 2.10.x with Australian and New Zealand Metadata Profiles and support. This is a fork of ANZMEST with the 
+Defence Metadata Profile Version 3.0 included.
 
-When you clone ANZMEST select the 2.10.x branch eg:
+When you clone the ANZMEST DMP fork select the 2.10.x branch eg:
 
-git clone https://github.com/anzmest/core-geonetwork.git -b 2.10.x --recursive
+git clone https://github.com/dmp-geonetwork/core-geonetwork.git -b 2.10.x --recursive
 
 To build after you have cloned:
 
@@ -43,7 +44,7 @@ With ANZMEST you get GeoNetwork (2.10.x) plus:
 * SensorML OGC Discovery Profile for sensor platform metadata
 * EML GBIF profile
 * ANZMETA (the old ANZLIC metadata profile) version 1.3 (view only - no editing)
-* ISO19115-1 2014 FDIS (for testing and exploration only)
+* ISO19115-1 2014 with Defence Metadata Profile Version 3.0 
 
 You can view the config overrides that ANZMEST applies to GeoNetwork at:
 
@@ -55,6 +56,8 @@ clone-directory-name/web/src/main/webapp/WEB-INF/anzmest-config-overrides.xml
 
 You can review the differences between ANZMEST-2.10.x and GeoNetwork 2.10.x 
 in the github interface at https://github.com/anzmest/core-geonetwork/compare/geonetwork:2.10.x...2.10.x
+
+Note the DMP is just one of the AU forks of ANZMEST. Others exist for BOM, CSIRO O&A, University of Wollongong and GA.
 
 Features
 --------
